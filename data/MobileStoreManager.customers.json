@@ -1,0 +1,234 @@
+[{
+  "_id": {
+    "$oid": "65380a6630e279ddd349272b"
+  },
+  "fullname": "Nguyễn Văn A",
+  "phonenumber": "0901234567",
+  "address": "Hà Nội",
+  "transactionHistories": [],
+  "createdAt": {
+    "$date": "2023-10-24T18:18:14.619Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65380a6630e279ddd349272d"
+  },
+  "fullname": "Trần Thị B",
+  "phonenumber": "0912345678",
+  "address": "Hồ Chí Minh",
+  "transactionHistories": [],
+  "createdAt": {
+    "$date": "2023-10-24T18:18:14.628Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65380a6630e279ddd349272f"
+  },
+  "fullname": "Lê Văn C",
+  "phonenumber": "0923456789",
+  "address": "Đà Nẵng",
+  "transactionHistories": [],
+  "createdAt": {
+    "$date": "2023-10-24T18:18:14.631Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65380a6630e279ddd3492731"
+  },
+  "fullname": "Phạm Thị D",
+  "phonenumber": "0934567890",
+  "address": "Nha Trang",
+  "transactionHistories": [],
+  "createdAt": {
+    "$date": "2023-10-24T18:18:14.634Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65380a6630e279ddd3492733"
+  },
+  "fullname": "Nguyễn Văn E",
+  "phonenumber": "0945678901",
+  "address": "Vũng Tàu",
+  "transactionHistories": [],
+  "createdAt": {
+    "$date": "2023-10-24T18:18:14.638Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65380a6630e279ddd3492735"
+  },
+  "fullname": "Trần Văn F",
+  "phonenumber": "0956789012",
+  "address": "Cần Thơ",
+  "transactionHistories": [],
+  "createdAt": {
+    "$date": "2023-10-24T18:18:14.641Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65380a6630e279ddd3492737"
+  },
+  "fullname": "Lê Thị G",
+  "phonenumber": "0967890123",
+  "address": "Hải Phòng",
+  "transactionHistories": [],
+  "createdAt": {
+    "$date": "2023-10-24T18:18:14.644Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65380a6630e279ddd3492739"
+  },
+  "fullname": "Phạm Văn H",
+  "phonenumber": "0978901234",
+  "address": "Đà Lạt",
+  "transactionHistories": [],
+  "createdAt": {
+    "$date": "2023-10-24T18:18:14.649Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65380a6630e279ddd349273b"
+  },
+  "fullname": "Võ Văn I",
+  "phonenumber": "0989012345",
+  "address": "Bắc Giang",
+  "transactionHistories": [],
+  "createdAt": {
+    "$date": "2023-10-24T18:18:14.653Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65380a6630e279ddd349273d"
+  },
+  "fullname": "Hoàng Thị K",
+  "phonenumber": "0990123456",
+  "address": "Thanh Hóa",
+  "transactionHistories": [],
+  "createdAt": {
+    "$date": "2023-10-24T18:18:14.655Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65380a6630e279ddd349273f"
+  },
+  "fullname": "Mai Văn L",
+  "phonenumber": "0987654321",
+  "address": "Quảng Ninh",
+  "transactionHistories": [],
+  "createdAt": {
+    "$date": "2023-10-24T18:18:14.658Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65380a6630e279ddd3492741"
+  },
+  "fullname": "Đỗ Thị M",
+  "phonenumber": "0976543210",
+  "address": "Hà Tĩnh",
+  "transactionHistories": [],
+  "createdAt": {
+    "$date": "2023-10-24T18:18:14.661Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65380a6630e279ddd3492743"
+  },
+  "fullname": "Dương Văn N",
+  "phonenumber": "0965432109",
+  "address": "Bình Định",
+  "transactionHistories": [],
+  "createdAt": {
+    "$date": "2023-10-24T18:18:14.663Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65380a6630e279ddd3492745"
+  },
+  "fullname": "Hà Thị P",
+  "phonenumber": "0954321098",
+  "address": "Cà Mau",
+  "transactionHistories": [],
+  "createdAt": {
+    "$date": "2023-10-24T18:18:14.666Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65380a6630e279ddd3492747"
+  },
+  "fullname": "Ngô Văn Q",
+  "phonenumber": "0943210987",
+  "address": "An Giang",
+  "transactionHistories": [],
+  "createdAt": {
+    "$date": "2023-10-24T18:18:14.670Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65380a6630e279ddd3492749"
+  },
+  "fullname": "Lý Thị R",
+  "phonenumber": "0932109876",
+  "address": "Kiên Giang",
+  "transactionHistories": [],
+  "createdAt": {
+    "$date": "2023-10-24T18:18:14.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65380a6630e279ddd349274b"
+  },
+  "fullname": "Trương Văn S",
+  "phonenumber": "0921098765",
+  "address": "Bạc Liêu",
+  "transactionHistories": [],
+  "createdAt": {
+    "$date": "2023-10-24T18:18:14.675Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65380a6630e279ddd349274d"
+  },
+  "fullname": "Vương Thị T",
+  "phonenumber": "0910987654",
+  "address": "Cần Giờ",
+  "transactionHistories": [],
+  "createdAt": {
+    "$date": "2023-10-24T18:18:14.677Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,179 @@
+<div id="content" class="main-content">
+    <div class="layout-px-spacing">
+
+        <div class="middle-content container-xxl p-0">
+            <div class="row layout-spacing ">
+
+                <!-- Content -->
+                <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 layout-top-spacing">
+                    <div class="user-profile">
+                        <div class="widget-content widget-content-area">
+                            <div class="d-flex justify-content-between p-4">
+                                <h3 class="">Profile</h3>
+                                {{#if staff.status }}
+                                {{#if_eq staff.status "off"}}
+                                <span class="badge badge-light-danger mb-2">Account is locked</span>
+                                {{/if_eq}}
+                                {{#if_eq staff.status "on"}}
+                                <span class="badge badge-light-primary mb-2">Account is active</span>
+                                {{/if_eq}}
+
+
+
+                                {{/if}}
+                            </div>
+                            <div class="text-center user-info">
+                                <img src="data:image/png;base64, {{image}}" style="width: 100px; height: 100px" alt="avatar">
+                                <p class="">{{staff.fullname}}</p>
+                            </div>
+                            <div class="user-info-list">
+
+                                <div class="">
+                                    <ul class="contacts-block list-unstyled">
+                                        <li class="contacts-block__item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-calendar me-3">
+                                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                                            </svg>{{staff.age}}
+                                        </li>
+                                        <li class="contacts-block__item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-map-pin me-3">
+                                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                                <circle cx="12" cy="10" r="3"></circle>
+                                            </svg>{{staff.country}}
+                                        </li>
+                                        <li class="contacts-block__item">
+                                            <a href="mailto:example@mail.com"><svg xmlns="http://www.w3.org/2000/svg"
+                                                    width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round" class="feather feather-mail me-3">
+                                                    <path
+                                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                                    </path>
+                                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                                </svg></a>{{staff.email}}
+                                        </li>
+                                        <li class="contacts-block__item">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="feather feather-phone me-3">
+                                                <path
+                                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                                </path>
+                                            </svg> +{{staff.cardID}}
+                                        </li>
+                                    </ul>
+
+                                    <ul class="list-inline mt-4 text-center">
+                                        <li class="list-inline-item mb-0">
+                                            <form action="/admin/lock/{{staff._id}}" method="post">
+                                                <button class="btn btn-danger mb-2 me-4 lock" type="submit">LOCK/UNLOCK
+                                                    ACCOUNT</button>
+                                            </form>
+                                        </li>
+                                        <li class="list-inline-item mb-0">
+                                            <form action="/admin/resetpass/{{staff._id}}" method="post">
+                                                <button class="btn btn-success mb-2 me-4 lock" type="submit">RESET PASSWORD</button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12 layout-top-spacing">
+
+                    <div class="usr-tasks ">
+                        <div class="widget-content widget-content-area p-4">
+                            <h3 class="">Task</h3>
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>Product Sold</th>
+                                            <th>Status</th>
+                                            <th>Sales Date</th>
+                                            <th>Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {{#each data}}
+                                        <tr>   
+                                            <td>
+                                                {{#each products}}
+                                                <p>{{productName}}</p>
+                                                <br>
+                                                {{/each}}
+                                            </td>
+                                            <td>
+                                                Completed
+                                            </td>
+                                            <td>
+                                                <p>{{purchaseDate}}</p>
+                                            </td>
+                                            <td>
+                                                <p>{{totalAmount}} Vnd</p>
+                                            </td>
+                                        </tr>
+                                        {{/each}}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<script>
+    document.querySelector('.list-inline-item .lock').addEventListener('click', function (event) {
+        event.preventDefault();
+        Swal.fire({
+            title: 'Are you sure you want to lock/unlock this account?',
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Yes',
+            cancelButtonText: 'No'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                const url = event.target.form.action;
+                fetch(url, { method: 'POST' })
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Network response was not ok');
+                        }
+                        return response.text();
+                    })
+                    .then(() => {
+                        Swal.fire('Success', 'The account has been locked/unlocked.', 'success')
+                            .then(() => {
+                                setTimeout(() => {
+                                    location.reload();
+                                }, 500); // Delay the reload
+                            });
+                    })
+                    .catch((error) => {
+                        console.error('There has been a problem with your fetch operation:', error);
+                        Swal.fire('Error', 'There was a problem locking/unlocking the account.', 'error');
+                    });
+            }
+        });
+    });
+</script>

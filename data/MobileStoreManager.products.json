@@ -1,0 +1,1021 @@
+[
+  {
+  "productName": "iPhone 14 Pro",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Apple",
+  "ram": 8,
+  "storage": 128,
+  "color": "white",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2022/11/iphone-14-pro-vang-large.png.webp",
+      "https://clickbuy.com.vn/uploads/2022/11/iphone-14-pro-den-large.png",
+      "https://clickbuy.com.vn/uploads/2022/11/iphone-14-pro-vang-large.png.webp"
+  ],
+  "importPrice": "23.490.000",
+  "retailPrice": "31.990.000"
+},{
+  "productName": "iPhone 14 Pro",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Apple",
+  "ram": 8,
+  "storage": 256,
+  "color": "red",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2022/11/iphone-14-pro-vang-large.png.webp",
+      "https://clickbuy.com.vn/uploads/2022/11/iphone-14-pro-tim-large.png",
+      "https://clickbuy.com.vn/uploads/2022/11/iphone-14-pro-vang-large.png.webp"
+  ],
+  "importPrice": "26.990.000",
+  "retailPrice": "34.990.000"
+},{
+  "productName": "iPhone 11",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Apple",
+  "ram": 6,
+  "storage": 64,
+  "color": "black",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2019/09/iphone-11-tim-large.png.webp",
+      "https://clickbuy.com.vn/uploads/2019/09/iphone-11-den-large.png",
+      "https://clickbuy.com.vn/uploads/2019/09/iphone-11-xanh-la-large.png.webp"
+  ],
+  "importPrice": "10.490.000",
+  "retailPrice": "14.990.000"
+},{
+  "productName": "iPhone 13",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Apple",
+  "ram": 6,
+  "storage": 128,
+  "color": "red",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2022/03/avt-iphone-13-green-large.png.webp",
+      "https://clickbuy.com.vn/uploads/2022/03/avt-iphone-13-midnight-large.png",
+      "https://clickbuy.com.vn/uploads/2022/10/avt-iphone-13-den-large.png.webp"
+  ],
+  "importPrice": "15.990.000",
+  "retailPrice": "24.490.000"
+},{
+  "productName": "iPhone 11",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Apple",
+  "ram": 8,
+  "storage": 128,
+  "color": "red",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2019/09/iphone-11-tim-large.png.webp",
+      "https://clickbuy.com.vn/uploads/2019/09/iphone-11-den-large.png",
+      "https://clickbuy.com.vn/uploads/2019/09/iphone-11-xanh-la-large.png.webp"
+  ],
+  "importPrice": "11.990.000",
+  "retailPrice": "21.690.000"
+},{
+  "productName": "iPhone 12",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Apple",
+  "ram": 6,
+  "storage": 128,
+  "color": "black",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2020/10/iphone-12-tim-large.png.webp",
+      "https://clickbuy.com.vn/uploads/2020/10/iphone-12-den-large.png",
+      "https://clickbuy.com.vn/uploads/2020/10/iphone-12-xanh-large.png.webp"
+  ],
+  "importPrice": "14.690.000",
+  "retailPrice": "21.600.000"
+},{
+  "productName": "iPhone 14 Plus",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Apple",
+  "ram": 6,
+  "storage": 128,
+  "color": "black",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2022/11/iphone-14-xanh-large.png.webp",
+      "https://clickbuy.com.vn/uploads/2022/11/iphone-14-tim-large.png",
+      "https://clickbuy.com.vn/uploads/2022/11/iphone-14-xanh-large.png.webp"
+  ],
+  "importPrice": "21.490.000",
+  "retailPrice": "28.990.000"
+},{
+  "productName": "iPhone 14",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Apple",
+  "ram": 8,
+  "storage": 128,
+  "color": "white",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2022/10/iphone-14-tim-large.png.webp",
+      "https://clickbuy.com.vn/uploads/2022/10/iphone-14-den-large.png",
+      "https://clickbuy.com.vn/uploads/2022/10/iphone-14-xanh-large.png.webp"
+  ],
+  "importPrice": "18.490.000",
+  "retailPrice": "25.990.000"
+},{
+  "productName": "iPhone 14 Pro Max",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Apple",
+  "ram": 8,
+  "storage": 512,
+  "color": "white",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2022/11/iphone-14-pro-max-tim-large.png.webp",
+      "https://clickbuy.com.vn/uploads/2022/11/iphone-14-pro-max-den-large.png",
+      "https://clickbuy.com.vn/uploads/2022/11/iphone-14-pro-max-trang-large.png.webp"
+  ],
+  "importPrice": "33.290.000",
+  "retailPrice": "45.990.000"
+},{
+  "productName": "iPhone 14 Pro",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Apple",
+  "ram": 8,
+  "storage": 512,
+  "color": "red",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2022/11/iphone-14-pro-vang-large.png.webp",
+      "https://clickbuy.com.vn/uploads/2022/11/iphone-14-pro-tim-large.png",
+      "https://clickbuy.com.vn/uploads/2022/11/iphone-14-pro-vang-large.png.webp"
+  ],
+  "importPrice": "29.990.000",
+  "retailPrice": "41.990.000"
+},{
+  "productName": "iPhone 14 Plus",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Apple",
+  "ram": 6,
+  "storage": 256,
+  "color": "gold",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2022/11/iphone-14-xanh-large.png.webp",
+      "https://clickbuy.com.vn/uploads/2022/11/iphone-14-tim-large.png",
+      "https://clickbuy.com.vn/uploads/2022/11/iphone-14-xanh-large.png.webp"
+  ],
+  "importPrice": "23.990.000",
+  "retailPrice": "31.990.000"
+},{
+  "productName": "iPhone 14",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Apple",
+  "ram": 8,
+  "storage": 256,
+  "color": "white",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2022/10/iphone-14-tim-large.png.webp",
+      "https://clickbuy.com.vn/uploads/2022/10/iphone-14-den-large.png",
+      "https://clickbuy.com.vn/uploads/2022/10/iphone-14-xanh-large.png.webp"
+  ],
+  "importPrice": "19.990.000",
+  "retailPrice": "28.990.000"
+},{
+  "productName": "iPhone 13 Pro",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Apple",
+  "ram": 6,
+  "storage": 512,
+  "color": "white",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2022/10/avt-iphone-13-pro-xanh-la-large.png.webp",
+      "https://clickbuy.com.vn/uploads/2022/10/avt-iphone-13-pro-den-large.png",
+      "https://clickbuy.com.vn/uploads/2022/10/avt-iphone-13-pro-xanh-la-large.png.webp"
+  ],
+  "importPrice": "31.990.000",
+  "retailPrice": "39.990.000"
+},{
+  "productName": "Samsung Galaxy S23 Plus",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Samsung",
+  "ram": 8,
+  "storage": 512,
+  "color": "red",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/02/ava-s23-green-large.png",
+      "https://clickbuy.com.vn/uploads/2023/01/320656fc-7589-4947-b0e6-cd1056ca4bb8-large.png.webp",
+      "https://clickbuy.com.vn/uploads/2023/01/c2791f43-be32-4354-95c3-a44ae09908ae-large.jpg.webp"
+  ],
+  "importPrice": "19.290.000",
+  "retailPrice": "29.990.000"
+},{
+  "productName": "Samsung Galaxy S22 Plus",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Samsung",
+  "ram": 8,
+  "storage": 256,
+  "color": "black",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2022/02/avt-samsung-s22-den-1-1-large.png"
+  ],
+  "importPrice": "14.990.000",
+  "retailPrice": "27.490.000"
+},{
+  "productName": "Samsung Galaxy S23",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Samsung",
+  "ram": 8,
+  "storage": 128,
+  "color": "gold",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/10/avt-samsung-s23-xanh-la-large.png"
+  ],
+  "importPrice": "14.990.000",
+  "retailPrice": "20.990.000"
+},{
+  "productName": "Samsung Galaxy A05S",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Samsung",
+  "ram": 4,
+  "storage": 128,
+  "color": "black",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/09/ava-a05s-black-large.png"
+  ],
+  "importPrice": "3.590.000",
+  "retailPrice": "3.990.000"
+},{
+  "productName": "Samsung Galaxy A05",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Samsung",
+  "ram": 4,
+  "storage": 128,
+  "color": "black",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/09/ava-a05-black-large.png"
+  ],
+  "importPrice": "2.890.000",
+  "retailPrice": "3.090.000"
+},{
+  "productName": "Samsung Galaxy M34",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Samsung",
+  "ram": 8,
+  "storage": 128,
+  "color": "red",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/09/ava-m34-black-large.png"
+  ],
+  "importPrice": "6.990.000",
+  "retailPrice": "7.990.000"
+},{
+  "productName": "Samsung Galaxy A24",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Samsung",
+  "ram": 8,
+  "storage": 128,
+  "color": "black",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/08/ava-a24-black-large.png"
+  ],
+  "importPrice": "5.490.000",
+  "retailPrice": "6.990.000"
+},{
+  "productName": "Samsung Galaxy A24",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Samsung",
+  "ram": 6,
+  "storage": 128,
+  "color": "red",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/08/ava-a24-black-large.png"
+  ],
+  "importPrice": "5.090.000",
+  "retailPrice": "6.490.000"
+},{
+  "productName": "Samsung Galaxy Z Fold4",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Samsung",
+  "ram": 12,
+  "storage": 512,
+  "color": "red",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2022/07/Z-Fold-Phantom-black-640x640-1-large.png"
+  ],
+  "importPrice": "25.990.000",
+  "retailPrice": "44.490.000"
+},{
+  "productName": "Xiaomi Poco X4 Pro",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Xiaomi",
+  "ram": 6,
+  "storage": 128,
+  "color": "black",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2021/07/avt-poco-x4-pro-den-large.png.webp",
+      "https://clickbuy.com.vn/uploads/2021/07/avt-poco-x4-pro-vang-large.png"
+  ],
+  "importPrice": "5.590.000",
+  "retailPrice": "7.490.000"
+},{
+  "productName": "Xiaomi Redmi Note 11 Pro",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Xiaomi",
+  "ram": 8,
+  "storage": 128,
+  "color": "red",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2021/12/avt-redmi-note-11-pro-xanh-copy-large.png.webp",
+      "https://clickbuy.com.vn/uploads/2021/12/avt-redmi-note-11-pro-den-copy-large.png"
+  ],
+  "importPrice": "5.990.000",
+  "retailPrice": "8.990.000"
+},{
+  "productName": "Xiaomi Redmi Note",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Xiaomi",
+  "ram": 8,
+  "storage": 128,
+  "color": "red",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2020/02/avt-redmi-note-11s-den-large.png.webp",
+      "https://clickbuy.com.vn/uploads/2020/02/avt-redmi-note-11s-xanh-large.png"
+  ],
+  "importPrice": "4.990.000",
+  "retailPrice": "6.690.000"
+},{
+  "productName": "Xiaomi Redmi Note 11 Pro",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Xiaomi",
+  "ram": 8,
+  "storage": 128,
+  "color": "gold",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2021/12/avt-redmi-note-11-pro-xanh-copy-large.png.webp",
+      "https://clickbuy.com.vn/uploads/2021/12/avt-redmi-note-11-pro-den-copy-large.png"
+  ],
+  "importPrice": "5.490.000",
+  "retailPrice": "7.490.000"
+},{
+  "productName": "Xiaomi Redmi",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Xiaomi",
+  "ram": 2,
+  "storage": 32,
+  "color": "white",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2021/03/avt-redmi-9A-black-large.png.webp",
+      "https://clickbuy.com.vn/uploads/2021/03/avt-redmi-9A-green-large.png",
+      "https://clickbuy.com.vn/uploads/2021/03/thumb_9A-1-large.jpg.webp"
+  ],
+  "importPrice": "1.690.000",
+  "retailPrice": "2.490.000"
+},{
+  "productName": "Xiaomi Poco X5 Pro",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Xiaomi",
+  "ram": 6,
+  "storage": 128,
+  "color": "black",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2022/09/ava-x5pro-blue-large.jpg"
+  ],
+  "importPrice": "6.890.000",
+  "retailPrice": "8.990.000"
+},{
+  "productName": "Xiaomi Redmi 12c",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Xiaomi",
+  "ram": 4,
+  "storage": 64,
+  "color": "gold",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/03/ava-12c-violet-large.png"
+  ],
+  "importPrice": "2.490.000",
+  "retailPrice": "3.990.000"
+},{
+  "productName": "Oppo A55 4GB 64GB",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Oppo",
+  "ram": 4,
+  "storage": 64,
+  "color": "white",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2021/02/oppo-a55-black-large.jpg"
+  ],
+  "importPrice": "2.990.000",
+  "retailPrice": "4.990.000"
+},{
+  "productName": "Oppo Reno6 Z 6GB 128GB",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Oppo",
+  "ram": 6,
+  "storage": 128,
+  "color": "red",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2019/07/oppo-reno6-Z-silver-large.png"
+  ],
+  "importPrice": "5.590.000",
+  "retailPrice": "9.490.000"
+},{
+  "productName": "OPPO Reno6 (5G) 6GB 128GB",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Oppo",
+  "ram": 6,
+  "storage": 128,
+  "color": "white",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2021/07/thumb_IP12Pro_3-large.jpg"
+  ],
+  "importPrice": "6.990.000",
+  "retailPrice": "12.990.000"
+},{
+  "productName": "Oppo Reno 10 Pro (5G) 12GB 256GB",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Oppo",
+  "ram": 12,
+  "storage": 256,
+  "color": "white",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/08/ava-reno10pro-purple-large.png"
+  ],
+  "importPrice": "12.990.000",
+  "retailPrice": "14.990.000"
+},{
+  "productName": "Oppo Reno 10 (5G) 8GB 256GB",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Oppo",
+  "ram": 8,
+  "storage": 256,
+  "color": "gold",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/08/ava-reno10-black-large.png"
+  ],
+  "importPrice": "8.990.000",
+  "retailPrice": "10.990.000"
+},{
+  "productName": "Oppo Reno 8T (4G) 8GB 256GB",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Oppo",
+  "ram": 8,
+  "storage": 256,
+  "color": "black",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/06/ava-8t4g-organce-large.png"
+  ],
+  "importPrice": "6.790.000",
+  "retailPrice": "8.990.000"
+},{
+  "productName": "Oppo Reno 8Z (5G) 8GB 256GB",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Oppo",
+  "ram": 8,
+  "storage": 256,
+  "color": "black",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/01/ava-8z5g-black-large.png"
+  ],
+  "importPrice": "8.490.000",
+  "retailPrice": "10.490.000"
+},{
+  "productName": "Oppo Reno 8 (4G) 8GB 256GB",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Oppo",
+  "ram": 8,
+  "storage": 256,
+  "color": "red",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/01/ava-reno8-gold-large.png"
+  ],
+  "importPrice": "7.490.000",
+  "retailPrice": "8.990.000"
+},{
+  "productName": "Oppo A77s 8GB 128GB",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Oppo",
+  "ram": 8,
+  "storage": 128,
+  "color": "white",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/01/ava-a77s-orange-large.png"
+  ],
+  "importPrice": "5.690.000",
+  "retailPrice": "6.290.000"
+},{
+  "productName": "Oppo A57 4GB 128GB",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Oppo",
+  "ram": 4,
+  "storage": 128,
+  "color": "white",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/01/ava-a57-green-large.png",
+      "https://clickbuy.com.vn/uploads/2023/01/ava-a57-green-large.png.webp"
+  ],
+  "importPrice": "4.190.000",
+  "retailPrice": "4.490.000"
+},{
+  "productName": "Oppo A17K 3GB 64GB",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Oppo",
+  "ram": 3,
+  "storage": 64,
+  "color": "white",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/01/ava-a17k-gold-large.png"
+  ],
+  "importPrice": "2.990.000",
+  "retailPrice": "3.290.000"
+},{
+  "productName": "Oppo A16K 4GB 64GB",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Oppo",
+  "ram": 4,
+  "storage": 64,
+  "color": "gold",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2021/03/oppo-a16k-large.png"
+  ],
+  "importPrice": "2.790.000",
+  "retailPrice": "3.690.000"
+},{
+  "productName": "Oppo Reno 7 (5G) 8GB 256GB",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Oppo",
+  "ram": 8,
+  "storage": 256,
+  "color": "gold",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2020/03/reno7-1-large.jpg"
+  ],
+  "importPrice": "12.990.000",
+  "retailPrice": "12.990.000"
+},{
+  "productName": "Oppo Reno 7 Z (5G) 8GB 128GB",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Oppo",
+  "ram": 8,
+  "storage": 128,
+  "color": "white",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2019/07/combo_product_-_cosmic_black_-_reno7_z_1-large.png"
+  ],
+  "importPrice": "7.490.000",
+  "retailPrice": "10.490.000"
+},{
+  "productName": "Oppo A16K 3GB 32GB",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Oppo",
+  "ram": 3,
+  "storage": 32,
+  "color": "white",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2021/03/oppo-a16k-large.png"
+  ],
+  "importPrice": "2.390.000",
+  "retailPrice": "3.690.000"
+},{
+  "productName": "Oppo A95 8GB 128GB",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Oppo",
+  "ram": 8,
+  "storage": 128,
+  "color": "red",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2021/03/oppo-a95-large.png"
+  ],
+  "importPrice": "6.150.000",
+  "retailPrice": "6.990.000"
+},{
+  "productName": "Oppo A74 8GB 128GB",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Oppo",
+  "ram": 8,
+  "storage": 128,
+  "color": "red",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2021/01/oppo-a74-den-large.png"
+  ],
+  "importPrice": "5.890.000",
+  "retailPrice": "6.990.000"
+},{
+  "productName": "Xiaomi 13 Ultra",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Xiaomi",
+  "ram": 12,
+  "storage": 256,
+  "color": "white",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/09/ava-13ultra-white-large.png"
+  ],
+  "importPrice": "17.990.000",
+  "retailPrice": "20.990.000"
+},{
+  "productName": "Xiaomi 12S Ultra (5G)",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Xiaomi",
+  "ram": 8,
+  "storage": 256,
+  "color": "gold",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/09/ava-12sultra-black-3-large.png"
+  ],
+  "importPrice": "14.990.000",
+  "retailPrice": "18.990.000"
+},{
+  "productName": "Xiaomi Pad 6 Pro",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Xiaomi",
+  "ram": 8,
+  "storage": 128,
+  "color": "black",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/07/ava-pad6pro-large.png"
+  ],
+  "importPrice": "8.390.000",
+  "retailPrice": "9.990.000"
+},{
+  "productName": "Xiaomi Redmi K60 Ultra (5G)",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Xiaomi",
+  "ram": 16,
+  "storage": 512,
+  "color": "red",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/08/ava-k60ultra-wwhite-large.png"
+  ],
+  "importPrice": "10.990.000",
+  "retailPrice": "12.990.000"
+},{
+  "productName": "Xiaomi Redmi K60 Ultra (5G)",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Xiaomi",
+  "ram": 12,
+  "storage": 256,
+  "color": "gold",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/08/ava-k60ultra-wwhite-large.png"
+  ],
+  "importPrice": "9.390.000",
+  "retailPrice": "10.990.000"
+},{
+  "productName": "Xiaomi Redmi Note 12 Turbo",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Xiaomi",
+  "ram": 12,
+  "storage": 512,
+  "color": "red",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/04/ava-note12turrbo-wwhite-large.png",
+      "https://clickbuy.com.vn/uploads/2022/04/turro-1-large.png.webp",
+      "https://clickbuy.com.vn/uploads/2022/04/turrbo3-large.png.webp"
+  ],
+  "importPrice": "6.990.000",
+  "retailPrice": "9.990.000"
+},{
+  "productName": "Xiaomi Redmi Note 11T Pro (5G)",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Xiaomi",
+  "ram": 8,
+  "storage": 256,
+  "color": "red",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2022/11/ava-note11tpro-large.png",
+      "https://clickbuy.com.vn/uploads/2022/08/111-large.png.webp",
+      "https://clickbuy.com.vn/uploads/2022/08/112-large.png.webp"
+  ],
+  "importPrice": "4.950.000",
+  "retailPrice": "7.990.000"
+},{
+  "productName": "Xiaomi Pad 6 Pro",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Xiaomi",
+  "ram": 12,
+  "storage": 256,
+  "color": "red",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/07/ava-pad6pro-large.png"
+  ],
+  "importPrice": "10.690.000",
+  "retailPrice": "12.990.000"
+},{
+  "productName": "Xiaomi Redmi Note 12 (5G)",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Xiaomi",
+  "ram": 8,
+  "storage": 128,
+  "color": "red",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2022/11/3-7-large.jpg"
+  ],
+  "importPrice": "4.150.000",
+  "retailPrice": "5.490.000"
+},{
+  "productName": "Xiaomi Pad 6",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Xiaomi",
+  "ram": 6,
+  "storage": 128,
+  "color": "black",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/06/ava-mipad6-gold-large.png"
+  ],
+  "importPrice": "6.490.000",
+  "retailPrice": "7.990.000"
+},{
+  "productName": "Xiaomi Redmi K50 (5G)",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Xiaomi",
+  "ram": 12,
+  "storage": 256,
+  "color": "gold",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2022/11/ava-redmi-k50-large.png"
+  ],
+  "importPrice": "6.590.000",
+  "retailPrice": "9.490.000"
+},{
+  "productName": "Xiaomi 13 Pro (5G)",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Xiaomi",
+  "ram": 12,
+  "storage": 256,
+  "color": "red",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/02/ava-mi13pro-trang-large.png"
+  ],
+  "importPrice": "18.990.000",
+  "retailPrice": "19.990.000"
+},{
+  "productName": "Nokia C32",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Nokia",
+  "ram": 4,
+  "storage": 128,
+  "color": "red",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/08/ava-nokiac32-green-large.png"
+  ],
+  "importPrice": "2.890.000",
+  "retailPrice": "3.290.000"
+},{
+  "productName": "Nokia G11 Plus",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Nokia",
+  "ram": 3,
+  "storage": 32,
+  "color": "black",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2022/08/ava-g11-plus-blue-large.png",
+      "https://clickbuy.com.vn/uploads/2022/08/HMD_Magik_Emotional_Grey_Back_001-1-large.png.webp",
+      "https://clickbuy.com.vn/uploads/2022/08/HMD_Magik_Rational_RHS_Grey_001-large.png.webp"
+  ],
+  "importPrice": "2.990.000",
+  "retailPrice": "3.390.000"
+},{
+  "productName": "Nokia G11 Plus",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Nokia",
+  "ram": 3,
+  "storage": 64,
+  "color": "red",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2022/08/ava-g11-plus-blue-large.png"
+  ],
+  "importPrice": "3.190.000",
+  "retailPrice": "3.590.000"
+},{
+  "productName": "Realme 11 Pro (5G)",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Realme",
+  "ram": 12,
+  "storage": 256,
+  "color": "gold",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/08/ava-r11pro-green-large.png"
+  ],
+  "importPrice": "6.590.000",
+  "retailPrice": "7.590.000"
+},{
+  "productName": "Realme 11 Pro Plus (5G)",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Realme",
+  "ram": 12,
+  "storage": 256,
+  "color": "black",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/08/avt-realme-11-pro-5g-xanh-la-large.png"
+  ],
+  "importPrice": "6.890.000",
+  "retailPrice": "8.990.000"
+},{
+  "productName": "Realme 11 Pro (5G)",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Realme",
+  "ram": 8,
+  "storage": 256,
+  "color": "black",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/08/ava-r11pro-green-large.png"
+  ],
+  "importPrice": "6.290.000",
+  "retailPrice": "6.990.000"
+},{
+  "productName": "Realme GT Neo5 SE",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Realme",
+  "ram": 12,
+  "storage": 512,
+  "color": "gold",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/06/ava-neo5se-gardien-large.png"
+  ],
+  "importPrice": "7.390.000",
+  "retailPrice": "8.990.000"
+},{
+  "productName": "Realme GT Neo5 SE",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Realme",
+  "ram": 12,
+  "storage": 256,
+  "color": "gold",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/06/ava-neo5se-gardien-large.png"
+  ],
+  "importPrice": "7.190.000",
+  "retailPrice": "8.490.000"
+},{
+  "productName": "Realme GT Neo5 SE",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Realme",
+  "ram": 8,
+  "storage": 256,
+  "color": "white",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/06/ava-neo5se-gardien-large.png"
+  ],
+  "importPrice": "7.090.000",
+  "retailPrice": "7.990.000"
+},{
+  "productName": "Realme Q5",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Realme",
+  "ram": 8,
+  "storage": 256,
+  "color": "black",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2022/11/ava-realme-q5-trang-large.png"
+  ],
+  "importPrice": "4.790.000",
+  "retailPrice": "5.590.000"
+},{
+  "productName": "Realme 10 Pro Plus",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Realme",
+  "ram": 8,
+  "storage": 256,
+  "color": "white",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2022/12/ava-realme10-blue-large.png"
+  ],
+  "importPrice": "5.490.000",
+  "retailPrice": "7.990.000"
+},{
+  "productName": "Tecno Spark 10 Pro",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Tecno",
+  "ram": 8,
+  "storage": 256,
+  "color": "red",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/09/ava-spark10-black-large.png"
+  ],
+  "importPrice": "3.690.000",
+  "retailPrice": "4.990.000"
+},{
+  "productName": "Tecno Spark 10 Pro",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Tecno",
+  "ram": 8,
+  "storage": 128,
+  "color": "white",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/09/ava-spark10-black-large.png"
+  ],
+  "importPrice": "3.190.000",
+  "retailPrice": "3.990.000"
+},{
+  "productName": "Tecno Pova 5",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Tecno",
+  "ram": 8,
+  "storage": 256,
+  "color": "black",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/08/avt-poco-5-trang-large.png"
+  ],
+  "importPrice": "4.290.000",
+  "retailPrice": "5.990.000"
+},{
+  "productName": "Tecno Pova 5",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Tecno",
+  "ram": 8,
+  "storage": 128,
+  "color": "black",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/08/avt-poco-5-trang-large.png"
+  ],
+  "importPrice": "3.890.000",
+  "retailPrice": "4.990.000"
+},{
+  "productName": "Tecno Spark 6 GO",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Tecno",
+  "ram": 4,
+  "storage": 64,
+  "color": "white",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2022/08/avt-techno-spark-6-go-xanh-la-large.png"
+  ],
+  "importPrice": "1.990.000",
+  "retailPrice": "2.990.000"
+},{
+  "productName": "Tecno Pova 4 (4G)",
+  "quantityInStock": 20,
+  "quantitySold": 0,
+  "brand": "Tecno",
+  "ram": 8,
+  "storage": 128,
+  "color": "gold",
+  "images": [
+      "https://clickbuy.com.vn/uploads/2023/03/ava-tecno4-blue-large.png",
+      "https://clickbuy.com.vn/uploads/2022/03/tecno4-large.png.webp",
+      "https://clickbuy.com.vn/uploads/2022/03/tecno3-large.png.webp"
+  ],
+  "importPrice": "3.590.000",
+  "retailPrice": "4.490.000"
+}
+]

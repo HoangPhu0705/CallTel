@@ -1,0 +1,557 @@
+{{!-- <style>
+    .horizontal-item {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card-img {
+        width: 100px;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .card-details {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        /* Ensure the details section also takes full width */
+    }
+
+    .product-name {
+        flex-grow: 1;
+    }
+</style> --}}
+<div id="content" class="main-content">
+    <div class="layout-px-spacing">
+        <div class="middle-content container-xxl p-0">
+            <div class="row layout-top-spacing">
+                <div class="col-xxl-7 col-xl-7 col-lg-3 col-md-3 col-sm-3">
+                    <input id="t-text" type="text" name="txt" placeholder="Product Code" class="form-control"
+                        required="">
+                </div>
+            </div>
+
+            <div class="row mb-4 layout-spacing layout-top-spacing ">
+                <div class="col-xxl-7 col-xl-7 col-lg-12 col-md-12 col-sm-12">
+                    <div id="listPhone" class="widget-content widget-content-area ecommerce-create-section p-4">
+                        {{#each list}}
+                        <div class="card style-3 mt-2">
+                            <p id="id" hidden>{{_id}}</p>
+                            <img src="{{images}}" class="card-img-top" style="width: 80px; height: 80px" alt="...">
+                            <div class="card-body px-0 py-0 align-self-center">
+                                <h5 class="card-title mb-1">{{productName}}</h5>
+                                <p class="card-category mb-1">Ram: {{ram}}</p>
+                                <p class="card-category mb-1">Storage: {{storage}}</p>
+                            </div>
+                            <div class="card-footer px-0 py-0 align-items-center" style="border-top: none">
+                                <p class="text-success">{{importPrice}}đ</p>
+
+                                <button
+                                    class="btn btn-outline-success btn-icon mb-2 me-4 btn-add h-50 align-self-xl-center">
+                                    Add
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-plus-square-dotted" viewBox="0 0 16 16">
+                                        <path
+                                            d="M2.5 0c-.166 0-.33.016-.487.048l.194.98A1.51 1.51 0 0 1 2.5 1h.458V0H2.5zm2.292 0h-.917v1h.917V0zm1.833 0h-.917v1h.917V0zm1.833 0h-.916v1h.916V0zm1.834 0h-.917v1h.917V0zm1.833 0h-.917v1h.917V0zM13.5 0h-.458v1h.458c.1 0 .199.01.293.029l.194-.981A2.51 2.51 0 0 0 13.5 0zm2.079 1.11a2.511 2.511 0 0 0-.69-.689l-.556.831c.164.11.305.251.415.415l.83-.556zM1.11.421a2.511 2.511 0 0 0-.689.69l.831.556c.11-.164.251-.305.415-.415L1.11.422zM16 2.5c0-.166-.016-.33-.048-.487l-.98.194c.018.094.028.192.028.293v.458h1V2.5zM.048 2.013A2.51 2.51 0 0 0 0 2.5v.458h1V2.5c0-.1.01-.199.029-.293l-.981-.194zM0 3.875v.917h1v-.917H0zm16 .917v-.917h-1v.917h1zM0 5.708v.917h1v-.917H0zm16 .917v-.917h-1v.917h1zM0 7.542v.916h1v-.916H0zm15 .916h1v-.916h-1v.916zM0 9.375v.917h1v-.917H0zm16 .917v-.917h-1v.917h1zm-16 .916v.917h1v-.917H0zm16 .917v-.917h-1v.917h1zm-16 .917v.458c0 .166.016.33.048.487l.98-.194A1.51 1.51 0 0 1 1 13.5v-.458H0zm16 .458v-.458h-1v.458c0 .1-.01.199-.029.293l.981.194c.032-.158.048-.32.048-.487zM.421 14.89c.183.272.417.506.69.689l.556-.831a1.51 1.51 0 0 1-.415-.415l-.83.556zm14.469.689c.272-.183.506-.417.689-.69l-.831-.556c-.11.164-.251.305-.415.415l.556.83zm-12.877.373c.158.032.32.048.487.048h.458v-1H2.5c-.1 0-.199-.01-.293-.029l-.194.981zM13.5 16c.166 0 .33-.016.487-.048l-.194-.98A1.51 1.51 0 0 1 13.5 15h-.458v1h.458zm-9.625 0h.917v-1h-.917v1zm1.833 0h.917v-1h-.917v1zm1.834-1v1h.916v-1h-.916zm1.833 1h.917v-1h-.917v1zm1.833 0h.917v-1h-.917v1zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
+                                    </svg>
+
+                                </button>
+                            </div>
+
+                        </div>
+                        {{/each}}
+                    </div>
+                    <div class="paginating-container pagination-default mt-5">
+                        <ul class="pagination">
+                            {{#if prevPage}}
+                            <li class="prev"><a href="?page={{prevPage}}">Prev</a></li>
+                            {{/if}}
+                            {{#each pages}}
+                            <li class="{{#if isActive}}active{{/if}}"><a
+                                    href="?page={{this.number}}">{{this.number}}</a></li>
+                            {{/each}}
+                            {{#if nextPage}}
+                            <li class="next"><a href="?page={{nextPage}}">Next</a></li>
+                            {{/if}}
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xxl-5 col-xl-5 col-lg-12 col-md-12 col-sm-12">
+
+                    <div class="row">
+                        <div class="col-xxl-12 col-xl-12 col-lg-8 col-md-7 mt-xxl-0 mt-xl-0 mt-4">
+                            <div class="widget-content widget-content-area ecommerce-create-section p-4">
+                                <div class="row">
+                                    <div class="col-xxl-12 col-xl-12 col-md-6 mb-4">
+                                        <div class="col-sm-12 mb-4 mt-4">
+                                            <button class="btn btn-outline-warning w-100" data-bs-toggle="modal"
+                                                data-bs-target="#inputFormModal">+ Add a customer </button>
+                                        </div>
+                                        <label for="proCode">Barcode</label>
+                                        <input type="text" class="form-control" id="proCode" value="">
+                                    </div>
+                                        {{#if invoiceId}}
+                                        <form class="formSubmit" action="/staff/invoice/{{invoiceId}}" method="post" onsubmit="return validateCheckout()">
+                                        {{else}}
+                                        <form action="./invoice" method="post" class="formSubmit" onsubmit="return validateCheckout()">
+                                            {{/if}}
+                                            <input type="hidden" id="cusPhone" name="cusPhone" value="0">
+                                            <input type="hidden" id="cusName" name="cusName" value="0">
+                                            <input type="hidden" id="cusAddress" name="cusAddress" value="0">
+                                            
+                                            <div class="col-sm-12">
+                                                Product items:
+                                                <div class="product-list-container"
+                                                    style="max-height: 500px; overflow-y: auto; overflow-x:hidden">
+                                                    <ul class="product-list">
+                                                        {{#if data}}
+                                                        {{#each data}}
+                                                        <div class="product-details">
+                                                            <div class="row">
+                                                                <input type="hidden" name="productId" value="{{_id}}">
+                                                                <div class="col-xl-2 mt-3">
+                                                                    <img src="{{images}}"
+                                                                        style="width: 50px; height: 50px;"
+                                                                        class="product-image">
+                                                                </div>
+                                                                <div class="col-xl-3">
+                                                                    <div class="product-name"
+                                                                        style="display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                                                                        {{productName}}
+                                                                    </div>
+                                                                    <div class="form-group">
+                                                                        <input id="quantity" name="quantity"
+                                                                            class="form-control input-sm" type="number"
+                                                                            value="1" min="1">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-3 mt-4">
+                                                                    <div class="product-price">{{importPrice}}</div>
+                                                                </div>
+                                                                <div
+                                                                    class="col-xl-4 mt-4 d-flex justify-content-end align-items-center">
+                                                                    <a id="delete-product">
+                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                            width="16" height="16" fill="currentColor"
+                                                                            class="bi bi-trash" viewBox="0 0 16 16">
+                                                                            <path
+                                                                                d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z" />
+                                                                            <path
+                                                                                d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z" />
+                                                                        </svg>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        {{/each}}
+                                                        {{/if}}
+                                                        <!-- Add more product items as needed -->
+                                                    </ul>
+                                                </div>
+
+                                                Invoice Details:
+                                                <div
+                                                    class="widget-content widget-content-area ecommerce-create-section mb-4 bg-light p-3">
+                                                    <div class="row">
+                                                        <div class="col-6 text-start">
+                                                            <p>Customer name: </p>
+                                                            <p>Address: </p> <br> <br>
+                                                            <p>Phone number: </p>
+
+
+                                                        </div>
+                                                        <div class="col-6 text-end">
+                                                            <p id="customerName"></p>
+                                                            <p id="address"></p>
+                                                            <p id="phoneNumber"></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <label for="proCode">Total Price : </label>
+                                                <h4 id="totalprice"></h4>
+
+                                                <label for="proCode">Money taken </label>
+                                                <input type="text" class="form-control" id="moneyTake" name="moneyTake"
+                                                    value="0">
+
+                                                <div class="col-sm-12 mt-4">
+                                                    <button class="btn btn-success w-100">Checkout</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade inputForm-modal" id="inputFormModal" tabindex="-1" role="dialog"
+        aria-labelledby="inputFormModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header" id="inputFormModalLabel">
+                    <h5 class="modal-title">Add Customer</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true"><svg
+                            aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-x">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mt-0">
+                        <div class="formgroup">
+                            <div class="input-group mb-3 row">
+                                <div class="col-xl-10 col-lg-8 col-md-8 col-sm-9 filtered-list-search mx-auto">
+                                    <div class="form-inline my-2 my-lg-0 justify-content-center">
+                                        <div class="w-100">
+                                            <input type="text" class="w-100 form-control product-search br-30"
+                                                type="number" id="input-search" placeholder="Search Customer..">
+                                            <button id="button-find" type="button"
+                                                class="btn btn-primary mt-2 mb-2 btn-no-effect w-100 rounded-pill mt-3">Find customer</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">
+                                    </span>
+                                    <input id="customer-fullname" type="text" class="form-control"
+                                        placeholder="Fullname">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">
+                                    </span>
+                                    <input id="customer-address" type="text" class="form-control" placeholder="Address"
+                                        aria-label="password">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">
+
+                                    </span>
+                                    <input id="customer-phonenumber" type="text" class="form-control"
+                                        placeholder="Phone Number" aria-label="password">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-light-danger mt-2 mb-2 btn-no-effect"
+                            data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary mt-2 mb-2 btn-no-effect" id="btn-save"
+                            data-bs-dismiss="modal">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.formSubmit').submit(function () {
+                return validateCheckOut();
+            });
+            var listPhoneChose = {
+                "phones": [
+                ],
+                "customer": {
+
+                }
+
+            }
+            $('#t-text').on('input', function () {
+                var inputValue = $(this).val();
+                // Thực hiện các hành động bạn muốn với giá trị mới của input
+                console.log('Input value changed to: ' + inputValue);
+                fetchDataAndFillHTML(inputValue);
+
+            });
+            $('#listPhone').on('click', '.btn-add', function () {
+                console.log("click");
+                // Find the closest '.horizontal-item' ancestor
+                var card = $(this).closest('.card');
+
+                // Get data from the card
+                var id = card.find('#id').text(); // Example: _id
+                var productName = card.find('.card-title').text(); // Example: Product Name
+                var ram = card.find('.card-category:eq(0)').text().replace('Ram: ', ''); // Example: Ram
+                var storage = card.find('.card-category:eq(1)').text().replace('Storage: ', ''); // Example: Storage
+                var importPrice = card.find('.text-success').text().replace('đ', ''); // Example: Import Price
+                var images = card.find('.card-img-top').attr('src'); // Example: Image URL
+
+
+                updatelist(id, 1, productName, importPrice, images);
+            });
+            $('#proCode').keypress(function (e) {
+                if (e.which == 13) { // 13 is the keycode for Enter
+                    e.preventDefault(); // Prevent the default action (form submission)
+                    $.ajax({
+                        url: `/api/v1/product/${$(this).val()}`, // Replace with your URL
+                        type: 'GET', // or 'POST', depending on your requirement
+                        dataType: 'json',
+                        success: function (response) {
+                            // Handle success
+                            updatelist(response.data._id, 1, response.data.productName, response.data.importPrice, response.data.images[0])
+                            console.log('Success:', response);
+                        },
+                        error: function (error) {
+                            // Handle error
+                            console.error('Error:', error);
+                        }
+                    });
+                }
+            }); $('#input-search').keypress(function (event) {
+                if (!/[0-9]/.test(String.fromCharCode(event.which))) {
+                    event.preventDefault(); // Prevent character if it's not a number
+                }
+            });
+            $('#button-find').on('click', function () {
+
+                var searchText = $('#input-search').val(); // Lấy giá trị của trường nhập liệu
+
+                $.ajax({
+                    url: `/api/v1/customer/search?phonenumber=${searchText}`, // Replace with your API endpoint
+                    method: 'GET',
+                    dataType: 'json',
+                    success: function (data) {
+                        // Get the container element where you want to add the items
+                        const customer = data.data
+                        $('#customer-fullname').val(customer.fullname);
+                        $('#customer-address').val(customer.address);
+                        $('#customer-phonenumber').val(customer.phonenumber);
+                    },
+                    error: function (error) {
+
+                        console.error('Error fetching data:', error);
+                    }
+                })
+            });
+            $('#btn-save').on('click', function () {
+                listPhoneChose.customer = {
+                    "fullname": $('#customer-fullname').val(),
+                    "address": $('#customer-address').val(),
+                    "phonenumber": $('#customer-phonenumber').val()
+                };
+
+                var phoneNumberValue = listPhoneChose.customer.phonenumber;
+                var nameValue = listPhoneChose.customer.fullname;
+                var addressValue = listPhoneChose.customer.address;
+                var listItem = $('<li>').addClass('product-item mt-4');
+                $('#cusPhone').val(phoneNumberValue);
+                $('#cusName').val(nameValue);
+                $('#cusAddress').val(addressValue);
+
+                $('#customerName').text(listPhoneChose.customer.fullname);
+                $('#address').text(listPhoneChose.customer.address);
+                $('#phoneNumber').text(listPhoneChose.customer.phonenumber);
+            });
+
+            // Define a function to add a new item to the list
+            function fetchDataAndFillHTML(searchText) {
+                // Make an API request
+                $.ajax({
+                    url: `/api/v1/product/search?name=${searchText}`, // Replace with your API endpoint
+                    method: 'GET',
+                    dataType: 'json',
+                    success: function (data) {
+                        // Get the container element where you want to add the items
+                        const container = $('#listPhone');
+                        container.empty();
+
+                        // Iterate through the data and create HTML elements for each item
+                        $.each(data.data, function (index, item) {
+                            const card = $('<div>').addClass('card style-3 mt-2');
+                            const idParagraph = $('<p>').attr('id', 'id').attr('hidden', true).text(item._id);
+                            const img = $('<img>').addClass('card-img-top').attr('src', item.images[0]).attr('alt', '...').css('width', '80px').css('height', '80px');
+                            const cardBody = $('<div>').addClass('card-body px-0 py-0 align-self-center');
+                            const cardTitle = $('<h5>').addClass('card-title mb-1').text(item.productName);
+                            const cardCategory1 = $('<p>').addClass('card-category mb-1').text(`Ram: ${item.ram}`);
+                            const cardCategory2 = $('<p>').addClass('card-category mb-1').text(`Storage: ${item.storage}`);
+                            const cardFooter = $('<div>').addClass('card-footer px-0 py-0 align-items-center').css('border-top', 'none');
+                            const pricing = $('<p>').addClass('text-success').text(`${item.importPrice}đ`);
+                            const addButton = $('<button>')
+                                .addClass('btn btn-outline-success btn-icon mb-2 me-4 btn-add h-50 align-self-xl-center')
+                                .text('Add');
+
+                            const plusSquareIcon = $(
+                                `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-square-dotted" viewBox="0 0 16 16">
+                                    <path d="M2.5 0c-.166 0-.33.016-.487.048l.194.98A1.51 1.51 0 0 1 2.5 1h.458V0H2.5zm2.292 0h-.917v1h.917V0zm1.833 0h-.917v1h.917V0zm1.833 0h-.916v1h.916V0zm1.834 0h-.917v1h.917V0zm1.833 0h-.917v1h.917V0zM13.5 0h-.458v1h.458c.1 0 .199.01.293.029l.194-.981A2.51 2.51 0 0 0 13.5 0zm2.079 1.11a2.511 2.511 0 0 0-.69-.689l-.556.831c.164.11.305.251.415.415l.83-.556zM1.11.421a2.511 2.511 0 0 0-.689.69l.831.556c.11-.164.251-.305.415-.415L1.11.422zM16 2.5c0-.166-.016-.33-.048-.487l-.98.194c.018.094.028.192.028.293v.458h1V2.5zM.048 2.013A2.51 2.51 0 0 0 0 2.5v.458h1V2.5c0-.1.01-.199.029-.293l-.981-.194zM0 3.875v.917h1v-.917H0zm16 .917v-.917h-1v.917h1zM0 5.708v.917h1v-.917H0zm16 .917v-.917h-1v.917h1zM0 7.542v.916h1v-.916H0zm15 .916h1v-.916h-1v.916zM0 9.375v.917h1v-.917H0zm16 .917v-.917h-1v.917h1zm-16 .916v.917h1v-.917H0zm16 .917v-.917h-1v.917h1zm-16 .917v.458c0 .166.016.33.048.487l.98-.194A1.51 1.51 0 0 1 1 13.5v-.458H0zm16 .458v-.458h-1v.458c0 .1-.01.199-.029.293l.981.194c.032-.158.048-.32.048-.487zM.421 14.89c.183.272.417.506.69.689l.556-.831a1.51 1.51 0 0 1-.415-.415l-.83.556zm14.469.689c.272-.183.506-.417.689-.69l-.831-.556c-.11.164-.251.305-.415.415l.556.83zm-12.877.373c.158.032.32.048.487.048h.458v-1H2.5c-.1 0-.199-.01-.293-.029l-.194.981zM13.5 16c.166 0 .33-.016.487-.048l-.194-.98A1.51 1.51 0 0 1 13.5 15h-.458v1h.458zm-9.625 0h.917v-1h-.917v1zm1.833 0h.917v-1h-.917v1zm1.834-1v1h.916v-1h-.916zm1.833 1h.917v-1h-.917v1zm1.833 0h.917v-1h-.917v1zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"/>
+                                </svg>`
+                            );
+
+                            addButton.append(plusSquareIcon);
+                            cardFooter.append(pricing, addButton);
+                            cardBody.append(cardTitle, cardCategory1, cardCategory2);
+                            card.append(idParagraph, img, cardBody, cardFooter);
+                            container.append(card);
+                        });
+                    },
+                    error: function (error) {
+                        console.error('Error fetching data:', error);
+                    }
+                });
+            }
+            function addProductItem(id, productName, importPrice, images) {
+                // Create a new list item element
+                var listItem = $('<li>').addClass('product-item mt-4');
+                // Create the HTML structure for the new item
+                listItem.html(`
+                <div class="product-details">
+                    <div class="row">
+                        <input type="hidden" name="productId" value="${id}">
+                        <div class="col-xl-2 mt-3">
+                            <img src="${images}"  style="width: 50px; height: 50px;" class="product-image">
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="product-name"
+                                style="display: block;overflow: hidden;text-overflow: ellipsis; white-space: nowrap;">
+                                ${productName}</div>
+                            <div class="form-group">
+                                <input id="quantity" name="quantity" class="form-control input-sm quantity" type="number" value="1" min="0">
+                            </div>
+                        </div>
+                        <div class="col-xl-3 mt-4">
+                            <div class="product-price">${importPrice}đ</div>
+                        </div>
+                        <div class="col-xl-4 mt-4 d-flex justify-content-end align-items-center">
+                            <a id="delete-product">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-trash" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z" />
+                                    <path
+                                        d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            `);
+                $('.product-list').append(listItem);
+                listItem.find('#quantity').on('input', function () {
+                    const newQuantity = parseInt($(this).val());
+                    updatelist(id, newQuantity, productName, importPrice, images);
+                });
+                listItem.find('#delete-product').on('click', function () {
+                    if (deleteItem(id)) {
+                        $(this).closest('li').remove();
+                    }
+                });
+            }
+            function updatelist(id, newQuantity, productName, importPrice, images) {
+                const existingItemIndex = listPhoneChose.phones.findIndex(item => item.id === id);
+                if (existingItemIndex !== -1) {
+                    if ([0, 1].includes(newQuantity)) {
+                        listPhoneChose.phones[existingItemIndex].quantity = parseInt(listPhoneChose.phones[existingItemIndex].quantity) + 1;
+                    } else {
+                        listPhoneChose.phones[existingItemIndex].quantity = newQuantity;
+                    }
+                    var productItem = $(".product-item.mt-4").eq(existingItemIndex); // Use .eq() to select a specific element by index
+                    productItem.find("#quantity").val(listPhoneChose.phones[existingItemIndex].quantity);
+                    //console.log(productItem);
+
+                } else {
+                    listPhoneChose.phones.push({
+                        "id": id,
+                        "price": importPrice,
+                        "quantity": newQuantity
+                    });
+                    addProductItem(id, productName, importPrice, images);
+                }
+                updateTotalPrice()
+
+                console.log("Updated listPhoneChose:", listPhoneChose);
+            }
+            function deleteItem(id) {
+                const indexToDelete = listPhoneChose.phones.findIndex(item => item.id === id);
+                if (indexToDelete !== -1) {
+                    listPhoneChose.phones.splice(indexToDelete, 1);
+                    updateTotalPrice()
+                    return true;
+                }
+                console.log("Updated listPhoneChose:", listPhoneChose);
+                return false;
+            }
+            function formatPrice(price) {
+                return price.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' }).replace(/\s/g, '').replace('₫', 'Đ');
+            }
+            function calculateTotalPrice(quantity, price) {
+                return parseFloat(price.replace(/\./g, '').replace(',', '.')) * quantity;
+            }
+            function validateCheckOut() {
+                console.log(listPhoneChose.customer);
+                var moneyTake = parseFloat($('#moneyTake').val());
+                var totalPrice = parseFloat($('#totalprice').text().replace("Đ", "").replace(/\./g, '').replace(',', '.'));
+
+                if (listPhoneChose.phones.length === 0) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Error',
+                        text: 'You have to choose at least one product!',
+                        timer: 1500,
+                        timerProgressBar: true,
+                        toast: true,
+                        position: 'bottom-end'
+                    });
+                    return false;
+                } else if (Object.keys(listPhoneChose.customer).length === 0) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Error',
+                        text: 'Cannot find customer !',
+                        timer: 1500,
+                        timerProgressBar: true,
+                        toast: true,
+                        position: 'bottom-end'
+                    });
+                    return false;
+                } else if (totalPrice > moneyTake) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Error',
+                        text: 'Money taken not enough !',
+                        timer: 1500,
+                        timerProgressBar: true,
+                        toast: true,
+                        position: 'bottom-end'
+                    });
+                    return false;
+                } else {
+                    return true;
+                }
+            }
+            function updateTotalPrice() {
+                var totalPrice = 0;
+                listPhoneChose.phones.forEach((phone) => {
+                    console.log(phone);
+                    totalPrice += calculateTotalPrice(phone.quantity, phone.price);
+                });
+                $('#totalprice').text(formatPrice(totalPrice));
+            }
+        });
+
+    </script>

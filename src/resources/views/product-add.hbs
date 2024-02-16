@@ -1,0 +1,110 @@
+<!--  BEGIN CONTENT AREA  -->
+<div id="content" class="main-content">
+
+    <div class="layout-px-spacing">
+
+        <div class="middle-content container-xxl p-0">
+            <form id="productForm" method="post" action="/admin/add" enctype="multipart/form-data">
+                <div class="row mb-4 layout-spacing layout-top-spacing">
+                    <div class="col-xxl-5 col-xl-5 col-lg-12 col-md-12 col-sm-12">
+                        <div class="widget-content widget-content-area ecommerce-create-section p-4">
+                            <div class="row mb-4">
+                                <div class="col-sm-12">
+                                    <input type="text" class="form-control" id="inputEmail3" name="productName"
+                                        placeholder="Product Name">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group">
+                                    <div class="custom-file">
+                                        <input type="file" class="custom-file-input" id="product-images" name="file"  
+                                                data-allow-reorder="true"
+                                                data-instant-upload="false"
+                                                data-max-file-size="3MB"
+                                                >
+                                        <label class="custom-file-label" for="customFile">Choose file</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-7 col-xl-7 col-lg-12 col-md-12 col-sm-12">
+                        <div class="row">
+                            <div class="col-xxl-12 col-xl-12 col-lg-8 col-md-7 mt-xxl-0 mt-4">
+                                <div class="widget-content widget-content-area ecommerce-create-section p-4">
+                                    <div class="row">
+                                        <div class="col-xxl-12 mb-4">
+                                            <div class="switch form-switch-custom switch-inline form-switch-secondary">
+                                                <input class="switch-input" type="checkbox" role="switch" id="in-stock">
+                                                <label class="switch-label" for="in-stock">In Stock</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-12 col-md-6 mb-4">
+                                            <label for="brand">Product Brand</label>
+                                            <input type="text" class="form-control" id="brand" name="brand" value="">
+                                        </div>
+                                        <div class="col-xxl-12 col-md-6 mb-4">
+                                            <label for="ram">Ram</label>
+                                            <select class="form-select" id="ram" name="ram">
+                                                <option value="">0</option>
+                                                <option value="1">1 GB</option>
+                                                <option value="2">2 GB</option>
+                                                <option value="3">3 GB</option>
+                                                <option value="4">4 GB</option>
+                                                <option value="5">5 GB</option>
+                                                <option value="6">6 GB</option>
+                                                <option value="7">7 GB</option>
+                                                <option value="8">8 GB</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xxl-12 col-md-6 mb-4">
+                                            <label for="storage">Storage</label>
+                                            <select class="form-select" id="storage" name="storage">
+                                                <option value="">Choose...</option>
+                                                <option value="32">32 GB</option>
+                                                <option value="64">64 GB</option>
+                                                <option value="128">128 GB</option>
+                                                <option value="256">256 GB</option>
+                                                <option value="512">512 GB</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xxl-12 col-lg-6 col-md-12">
+                                            <label for="color">Color</label>
+                                            <input id="color" name="color" class="form-control" value="">
+                                        </div>
+                                        <div class="col-xxl-12 col-lg-6 col-md-12">
+                                            <label for="quantity">Quantity</label>
+                                            <input id="quantity" name="quantity" class="form-control" value="">
+                                        </div>
+                                        <div class="col-sm-12 mb-4">
+                                            <label for="importPrice">Regular Price</label>
+                                            <input type="text" class="form-control" id="importPrice" name="importPrice"
+                                                value="">
+                                        </div>
+                                        <div class="col-sm-12 mb-4">
+                                            <label for="retailPrice">Sale Price</label>
+                                            <input type="text" class="form-control" id="retailPrice" name="retailPrice"
+                                                value="">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <button type="submit" class="btn btn-success w-100">Add Product</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

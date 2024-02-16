@@ -1,0 +1,6 @@
+@import url('../../../src/assets/css/light/main.css');
+@import url('../../../src/plugins/css/light/perfect-scrollbar/perfect-scrollbar.css');
+@import url('../../../src/plugins/src/waves/waves.min.css');
+@import url('structure.css');
+
+@import '../../../src/plugins/src/highlight/styles/monokai-sublime.css';

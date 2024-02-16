@@ -1,0 +1,167 @@
+<div id="content" class="main-content">
+    <div class="layout-px-spacing">
+
+        <div class="middle-content container-xxl p-0">
+
+            <div class="row invoice layout-top-spacing layout-spacing">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-4">
+
+                    <div class="doc-container">
+
+                        <div class="row">
+
+                            <div class="col-xl-9">
+
+                                <div class="invoice-container">
+                                    <div class="invoice-inbox">
+
+                                        <div id="ct" class="">
+
+                                            <div class="invoice-00001">
+                                                <div class="content-section">
+
+                                                    <div class="inv--head-section inv--detail-section">
+
+                                                        <div class="row">
+
+                                                            <div class="col-sm-6 col-12 mr-auto">
+                                                                <div class="d-flex">
+                                                                    <img class="company-logo"
+                                                                        src="/img/CALLTEL.png"
+                                                                        alt="company">
+                                                                    <h3 class="in-heading align-self-center">CALLTEL
+                                                                        Inc.</h3>
+                                                                </div>
+                                                                <p class="inv-street-addr mt-3">XYZ Delta Street</p>
+                                                                <p class="inv-email-address">info@company.com</p>
+                                                                <p class="inv-email-address">(120) 456 789</p>
+                                                            </div>
+
+                                                            <div class="col-sm-6 text-sm-end">
+                                                                <p class="inv-list-number mt-sm-3 pb-sm-2 mt-4"><span
+                                                                        class="inv-title">Invoice :{{invoice._id}}
+                                                                    </span></p>
+                                                                <p class="inv-created-date mt-sm-5 mt-3"><span
+                                                                        class="inv-title">Invoice Date :
+                                                                        {{invoice.purchaseDate}}</span></p>
+                                                                <p class="inv-due-date"><span class="inv-title">Due Date
+                                                                        : </span> <span class="inv-date">{{invoice.dueTo}}</span></p>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="inv--detail-section inv--customer-detail-section">
+
+                                                        <div class="row">
+
+                                                            <div
+                                                                class="col-xl-8 col-lg-7 col-md-6 col-sm-4 align-self-center">
+                                                                <p class="inv-to">Invoice To</p>
+                                                            </div>
+
+
+                                                            <div class="col-xl-8 col-lg-7 col-md-6 col-sm-4">
+                                                                <p class="inv-customer-name">{{invoice.fullname}}</p>
+                                                                <p class="inv-street-addr">{{invoice.address}}</p>
+                                                                <p class="inv-email-address">{{invoice.phonenumber}}
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="inv--product-table-section">
+                                                        <div class="table-responsive">
+                                                            <table class="table">
+                                                                <thead class="">
+                                                                    <tr>
+                                                                        <th scope="col">S.No</th>
+                                                                        <th scope="col">Items</th>
+                                                                        <th class="text-end" scope="col">Qty</th>
+                                                                        <th class="text-end" scope="col">Price</th>
+                                                                        <th class="text-end" scope="col">Amount</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    {{#each data}}
+                                                                    <tr>
+                                                                        <td>{{@index}}</td>
+                                                                        <td>{{productName}}</td>
+                                                                        <td class="text-end">{{amount}}</td>
+                                                                        <td class="text-end">{{importPrice}}vnd</td>
+                                                                        <td class="text-end">{{total}}</td>
+                                                                    </tr>
+                                                                    {{/each}}
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="inv--total-amounts">
+
+                                                        <div class="row mt-4">
+                                                            <div class="col-sm-5 col-12 order-sm-0 order-1">
+                                                            </div>
+                                                            <div class="col-sm-7 col-12 order-sm-1 order-0">
+                                                                <div class="text-sm-end">
+                                                                    <div class="row">
+                                                                        <div class="col-sm-8 col-7">
+                                                                            <p class="">Sub Total :</p>
+                                                                        </div>
+                                                                        <div class="col-sm-4 col-5">
+                                                                            <p class="">{{invoice.totalAmount}}vnd</p>
+                                                                        </div>
+                                                                        <div class="col-sm-8 col-7">
+                                                                            <p class="">Take:</p>
+                                                                        </div>
+                                                                        <div class="col-sm-4 col-5">
+                                                                            <p class=""> {{invoice.amountPaid}}vnd</p>
+                                                                        </div>
+                                                                        <div class="col-sm-8 col-7">
+                                                                            <p class="">Change:</p>
+                                                                        </div>
+                                                                        <div class="col-sm-4 col-5">
+                                                                            <p class="">{{invoice.change}}vnd</p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="inv--note">
+
+                                                        <div class="row mt-4">
+                                                            <div class="col-sm-12 col-12 order-sm-0 order-1">
+                                                                <p>Note: Thank you for doing Business with us.</p>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
