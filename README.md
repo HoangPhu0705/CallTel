@@ -65,7 +65,6 @@ The code for the application is organized into the following packages:
 After `Import database` access to:
 * Account (username/password): 
   - Admin : `admin`/`admin`
-  - Staff : `trunggdung0807`/`NTD08073`
 * Web-app:
   - Admin page `http://localhost:3000/admin`
   - Staff  page: `http://localhost:3000/staff`
