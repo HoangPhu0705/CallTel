@@ -1,6 +1,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This is the final report for `NodeJS` course
+ POS website for phone stores
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
